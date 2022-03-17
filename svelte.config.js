@@ -8,7 +8,7 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: node(),
+		adapter: adapter(),
 
 		// hydrate the <div id="svelte"> element in src/app.html
 		vite: {
